@@ -1,0 +1,16 @@
+package com.learning.springbatchprocess;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@SpringBootApplication
+@EnableTransactionManagement
+public class SpringbatchprocessApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbatchprocessApplication.class, args);
+		System.exit(0);
+	}
+
+}
